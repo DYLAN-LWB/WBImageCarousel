@@ -10,10 +10,17 @@
 		B8A61A351B3A6EEF004974DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A341B3A6EEF004974DE /* main.m */; };
 		B8A61A381B3A6EEF004974DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A371B3A6EEF004974DE /* AppDelegate.m */; };
 		B8A61A3B1B3A6EEF004974DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A3A1B3A6EEF004974DE /* ViewController.m */; };
-		B8A61A3E1B3A6EEF004974DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A61A3C1B3A6EEF004974DE /* Main.storyboard */; };
 		B8A61A401B3A6EEF004974DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A61A3F1B3A6EEF004974DE /* Images.xcassets */; };
 		B8A61A431B3A6EEF004974DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A61A411B3A6EEF004974DE /* LaunchScreen.xib */; };
 		B8A61A4F1B3A6EEF004974DE /* WBImageCarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A4E1B3A6EEF004974DE /* WBImageCarouselTests.m */; };
+		B8A61A6A1B3A6F24004974DE /* NSData+WBDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A5A1B3A6F24004974DE /* NSData+WBDataCache.m */; };
+		B8A61A6B1B3A6F24004974DE /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A5D1B3A6F24004974DE /* TAAbstractDotView.m */; };
+		B8A61A6C1B3A6F24004974DE /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A5F1B3A6F24004974DE /* TAAnimatedDotView.m */; };
+		B8A61A6D1B3A6F24004974DE /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A611B3A6F24004974DE /* TADotView.m */; };
+		B8A61A6E1B3A6F24004974DE /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A631B3A6F24004974DE /* TAPageControl.m */; };
+		B8A61A6F1B3A6F24004974DE /* WBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A651B3A6F24004974DE /* WBCollectionViewCell.m */; };
+		B8A61A701B3A6F24004974DE /* WBCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A671B3A6F24004974DE /* WBCycleScrollView.m */; };
+		B8A61A711B3A6F24004974DE /* UIView+WBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A61A691B3A6F24004974DE /* UIView+WBExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +41,27 @@
 		B8A61A371B3A6EEF004974DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8A61A391B3A6EEF004974DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B8A61A3A1B3A6EEF004974DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B8A61A3D1B3A6EEF004974DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8A61A3F1B3A6EEF004974DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8A61A421B3A6EEF004974DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8A61A481B3A6EEF004974DE /* WBImageCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBImageCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A61A4D1B3A6EEF004974DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A61A4E1B3A6EEF004974DE /* WBImageCarouselTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBImageCarouselTests.m; sourceTree = "<group>"; };
+		B8A61A591B3A6F24004974DE /* NSData+WBDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WBDataCache.h"; sourceTree = "<group>"; };
+		B8A61A5A1B3A6F24004974DE /* NSData+WBDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WBDataCache.m"; sourceTree = "<group>"; };
+		B8A61A5C1B3A6F24004974DE /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		B8A61A5D1B3A6F24004974DE /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		B8A61A5E1B3A6F24004974DE /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		B8A61A5F1B3A6F24004974DE /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		B8A61A601B3A6F24004974DE /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		B8A61A611B3A6F24004974DE /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		B8A61A621B3A6F24004974DE /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		B8A61A631B3A6F24004974DE /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		B8A61A641B3A6F24004974DE /* WBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCollectionViewCell.h; sourceTree = "<group>"; };
+		B8A61A651B3A6F24004974DE /* WBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCollectionViewCell.m; sourceTree = "<group>"; };
+		B8A61A661B3A6F24004974DE /* WBCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCycleScrollView.h; sourceTree = "<group>"; };
+		B8A61A671B3A6F24004974DE /* WBCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCycleScrollView.m; sourceTree = "<group>"; };
+		B8A61A681B3A6F24004974DE /* UIView+WBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WBExtension.h"; sourceTree = "<group>"; };
+		B8A61A691B3A6F24004974DE /* UIView+WBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WBExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +107,7 @@
 				B8A61A371B3A6EEF004974DE /* AppDelegate.m */,
 				B8A61A391B3A6EEF004974DE /* ViewController.h */,
 				B8A61A3A1B3A6EEF004974DE /* ViewController.m */,
-				B8A61A3C1B3A6EEF004974DE /* Main.storyboard */,
+				B8A61A581B3A6F24004974DE /* SDCycleScrollView */,
 				B8A61A3F1B3A6EEF004974DE /* Images.xcassets */,
 				B8A61A411B3A6EEF004974DE /* LaunchScreen.xib */,
 				B8A61A321B3A6EEF004974DE /* Supporting Files */,
@@ -117,6 +139,37 @@
 				B8A61A4D1B3A6EEF004974DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A61A581B3A6F24004974DE /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B8A61A591B3A6F24004974DE /* NSData+WBDataCache.h */,
+				B8A61A5A1B3A6F24004974DE /* NSData+WBDataCache.m */,
+				B8A61A5B1B3A6F24004974DE /* PageControl */,
+				B8A61A641B3A6F24004974DE /* WBCollectionViewCell.h */,
+				B8A61A651B3A6F24004974DE /* WBCollectionViewCell.m */,
+				B8A61A661B3A6F24004974DE /* WBCycleScrollView.h */,
+				B8A61A671B3A6F24004974DE /* WBCycleScrollView.m */,
+				B8A61A681B3A6F24004974DE /* UIView+WBExtension.h */,
+				B8A61A691B3A6F24004974DE /* UIView+WBExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		B8A61A5B1B3A6F24004974DE /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				B8A61A5C1B3A6F24004974DE /* TAAbstractDotView.h */,
+				B8A61A5D1B3A6F24004974DE /* TAAbstractDotView.m */,
+				B8A61A5E1B3A6F24004974DE /* TAAnimatedDotView.h */,
+				B8A61A5F1B3A6F24004974DE /* TAAnimatedDotView.m */,
+				B8A61A601B3A6F24004974DE /* TADotView.h */,
+				B8A61A611B3A6F24004974DE /* TADotView.m */,
+				B8A61A621B3A6F24004974DE /* TAPageControl.h */,
+				B8A61A631B3A6F24004974DE /* TAPageControl.m */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +252,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A61A3E1B3A6EEF004974DE /* Main.storyboard in Resources */,
 				B8A61A431B3A6EEF004974DE /* LaunchScreen.xib in Resources */,
 				B8A61A401B3A6EEF004974DE /* Images.xcassets in Resources */,
 			);
@@ -220,8 +272,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A61A3B1B3A6EEF004974DE /* ViewController.m in Sources */,
+				B8A61A6D1B3A6F24004974DE /* TADotView.m in Sources */,
+				B8A61A6B1B3A6F24004974DE /* TAAbstractDotView.m in Sources */,
+				B8A61A6C1B3A6F24004974DE /* TAAnimatedDotView.m in Sources */,
+				B8A61A711B3A6F24004974DE /* UIView+WBExtension.m in Sources */,
 				B8A61A381B3A6EEF004974DE /* AppDelegate.m in Sources */,
+				B8A61A6E1B3A6F24004974DE /* TAPageControl.m in Sources */,
+				B8A61A6A1B3A6F24004974DE /* NSData+WBDataCache.m in Sources */,
 				B8A61A351B3A6EEF004974DE /* main.m in Sources */,
+				B8A61A6F1B3A6F24004974DE /* WBCollectionViewCell.m in Sources */,
+				B8A61A701B3A6F24004974DE /* WBCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8A61A3C1B3A6EEF004974DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8A61A3D1B3A6EEF004974DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8A61A411B3A6EEF004974DE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WBImageCarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WBImageCarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
